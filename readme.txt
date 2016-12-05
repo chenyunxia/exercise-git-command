@@ -73,7 +73,7 @@ git branch -d dev
 
 
 22.解决冲突
-新建并切换至新分支branch1：git checkout -b branch1  (新建分支：git checkout branch1   切换分支：git branch branch1)
+新建并切换至新分支branch1：git checkout -b branch1  (新建分支：git branch branch1   切换分支：git checkout branch1)
 
 查看readme的内容：cat readme.txt
 
