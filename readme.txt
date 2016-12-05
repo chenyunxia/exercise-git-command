@@ -2,93 +2,93 @@
 22222222222222222222
 33333333333333333333
 44444444444444444444
-ÍÆËÍµ½Ô¶³Ì²Ö¿âºóÔÙ´ÎĞŞ¸Ä
+æ¨é€åˆ°è¿œç¨‹ä»“åº“åå†æ¬¡ä¿®æ”¹
 add branch dev
 add branch branch1
 make conflict
 
-4.³õÊ¼»¯£¬½«µ±Ç°Ä¿Â¼±ä³Égit²Ö¿â
+4.åˆå§‹åŒ–ï¼Œå°†å½“å‰ç›®å½•å˜æˆgitä»“åº“
 git init
 
-5.Ìí¼ÓÒ»¸ötxtÎÄ¼ş£¬²¢Ìí¼Óµ½²Ö¿âÔİ´æÇø
+5.æ·»åŠ ä¸€ä¸ªtxtæ–‡ä»¶ï¼Œå¹¶æ·»åŠ åˆ°ä»“åº“æš‚å­˜åŒº
 git add readme.txt
 
-6.Ìá½»
+6.æäº¤
 git commit -m "commit message"
 
-7.²é¿´ÊÇ·ñÓĞÎÄ¼şÃ»ÓĞÌá½»
-git status£¨È»ºóĞŞ¸ÄreadmeÎÄ¼ş£©
+7.æŸ¥çœ‹æ˜¯å¦æœ‰æ–‡ä»¶æ²¡æœ‰æäº¤
+git statusï¼ˆç„¶åä¿®æ”¹readmeæ–‡ä»¶ï¼‰
 
-8.²é¿´ĞŞ¸ÄÁËÊ²Ã´
+8.æŸ¥çœ‹ä¿®æ”¹äº†ä»€ä¹ˆ
 git diff readme.txt
 
-9.²é¿´Ìá½»logÈÕÖ¾
+9.æŸ¥çœ‹æäº¤logæ—¥å¿—
 git log/git log --pretty=oneline
 
-10.°æ±¾»ØÍË
-git reset --hard HEAD^£¨»Øµ½ÉÏÒ»¸ö°æ±¾£©/git reset --hard HEAD^^£¨»Øµ½ÉÏÁ½¸ö°æ±¾£©/git reser --hard HEAD~100£¨»Øµ½ÉÏ100¸ö°æ±¾£©
+10.ç‰ˆæœ¬å›é€€
+git reset --hard HEAD^ï¼ˆå›åˆ°ä¸Šä¸€ä¸ªç‰ˆæœ¬ï¼‰/git reset --hard HEAD^^ï¼ˆå›åˆ°ä¸Šä¸¤ä¸ªç‰ˆæœ¬ï¼‰/git reser --hard HEAD~100ï¼ˆå›åˆ°ä¸Š100ä¸ªç‰ˆæœ¬ï¼‰
 
-11.»ØÍËºó²é¿´µ±Ç°ÎÄ¼şµÄÄÚÈİ
+11.å›é€€åæŸ¥çœ‹å½“å‰æ–‡ä»¶çš„å†…å®¹
 cat readme.txt
 
-12.Èç¹ûÏë»Øµ½»ØÍËÇ°µÄ×îĞÂ°æ±¾
-»ñÈ¡ËùÓĞµÄlogÈÕÖ¾   git reflog
-»Øµ½×îĞÂ git reset --hard xxxxxx
+12.å¦‚æœæƒ³å›åˆ°å›é€€å‰çš„æœ€æ–°ç‰ˆæœ¬
+è·å–æ‰€æœ‰çš„logæ—¥å¿—   git reflog
+å›åˆ°æœ€æ–° git reset --hard xxxxxx
 
-13.¼ÌĞøĞŞ¸Äreadme£¬Î´Ìá½»Ö®Ç°·¢ÏÖÓĞ´íÎó
-cat readme.txt ·¢ÏÖÓĞ´íÎó
-¿ÉÒÔÊÖ¶¯ĞŞ¸Äºóadd+commit
-Ò²¿ÉÒÔgit reset --HEAD^
-Ò²¿ÉÒÔgit checkout -- readme.txt (--ºóÃæÓĞ¿Õ¸ñ)
+13.ç»§ç»­ä¿®æ”¹readmeï¼Œæœªæäº¤ä¹‹å‰å‘ç°æœ‰é”™è¯¯
+cat readme.txt å‘ç°æœ‰é”™è¯¯
+å¯ä»¥æ‰‹åŠ¨ä¿®æ”¹åadd+commit
+ä¹Ÿå¯ä»¥git reset --HEAD^
+ä¹Ÿå¯ä»¥git checkout -- readme.txt (--åé¢æœ‰ç©ºæ ¼)
 
 
-14.É¾³ıÎÄ¼ş
+14.åˆ é™¤æ–‡ä»¶
 rm a.txt
 
-15.»Ö¸´±»É¾³ıµÄÎÄ¼ş
-git checkout -- a.txt(--ºóÃæÓĞ¿Õ¸ñ)
+15.æ¢å¤è¢«åˆ é™¤çš„æ–‡ä»¶
+git checkout -- a.txt(--åé¢æœ‰ç©ºæ ¼)
 
 
-16.ÍÆËÍµ½Ô¶³Ì²Ö¿â
+16.æ¨é€åˆ°è¿œç¨‹ä»“åº“
 git remote add origin https:.........git
 git push -u origin master
 
-17.±¾µØĞŞ¸ÄºóÍÆËÍµ½Ô¶³Ì²Ö¿â
+17.æœ¬åœ°ä¿®æ”¹åæ¨é€åˆ°è¿œç¨‹ä»“åº“
 git push origin master
 
 
-18.´´½¨²¢ÇĞ»»µ½·ÖÖ§dev
+18.åˆ›å»ºå¹¶åˆ‡æ¢åˆ°åˆ†æ”¯dev
 git checkout -b dev
-´´½¨·ÖÖ§£ºgit branch dev
-ÇĞ»»·ÖÖ§£ºgit checkout dev
+åˆ›å»ºåˆ†æ”¯ï¼šgit branch dev
+åˆ‡æ¢åˆ†æ”¯ï¼šgit checkout dev
 
-19.²é¿´·ÖÖ§
+19.æŸ¥çœ‹åˆ†æ”¯
 git branch
 
-20.ÇĞ»»µ½Ö÷·ÖÖ§master£¬È»ºó½«·ÖÖ§ºÏ²¢
+20.åˆ‡æ¢åˆ°ä¸»åˆ†æ”¯masterï¼Œç„¶åå°†åˆ†æ”¯åˆå¹¶
 git checkout master, git merge dev
 
-21É¾³ı·ÖÖ§
+21åˆ é™¤åˆ†æ”¯
 git branch -d dev
 
 
-22.½â¾ö³åÍ»
-ĞÂ½¨²¢ÇĞ»»ÖÁĞÂ·ÖÖ§branch1£ºgit checkout -b branch1
+22.è§£å†³å†²çª
+æ–°å»ºå¹¶åˆ‡æ¢è‡³æ–°åˆ†æ”¯branch1ï¼šgit checkout -b branch1  (æ–°å»ºåˆ†æ”¯ï¼šgit checkout branch1   åˆ‡æ¢åˆ†æ”¯ï¼šgit branch branch1)
 
-²é¿´readmeµÄÄÚÈİ£ºcat readme.txt
+æŸ¥çœ‹readmeçš„å†…å®¹ï¼šcat readme.txt
 
-ĞŞ¸ÄreadmeÈ»ºó²é¿´
-Ìí¼Ó£ºgit add readme.txt + commit
+ä¿®æ”¹readmeç„¶åæŸ¥çœ‹
+æ·»åŠ ï¼šgit add readme.txt + commit
 
-ÇĞ»»ÖÁ·ÖÖ§master£ºgit checkout master
+åˆ‡æ¢è‡³åˆ†æ”¯masterï¼šgit checkout master
 
-ÔÚmasterÉÏĞŞ¸ÄÄÚÈİ
-ÔÚmasterÉÏgit add readme + conmmit
+åœ¨masterä¸Šä¿®æ”¹å†…å®¹
+åœ¨masterä¸Šgit add readme + conmmit
 
-°ÑmasterºÏ²¢µ½branch1ÉÏ£ºgit master merge branch1
+æŠŠmasteråˆå¹¶åˆ°branch1ä¸Šï¼šgit master merge branch1
 
 
-ÊÖ¶¯ĞŞ¸ÄÄÚÈİ£¬È»ºóadd+ commit
+æ‰‹åŠ¨ä¿®æ”¹å†…å®¹ï¼Œç„¶åadd + commit
 
 
 
