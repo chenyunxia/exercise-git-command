@@ -90,5 +90,5 @@ git branch -d dev
 
 手动修改内容，然后add + commit
 
-
-
+23.把远程仓库同步到本地
+git pull
